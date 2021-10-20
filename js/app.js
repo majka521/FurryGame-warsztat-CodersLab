@@ -21,6 +21,7 @@ class Game {
     this.furry = new Furry();
     this.coin = new Coin();
     this.score = 0;
+    this.bestScore = 0;
   }
   index(x, y) {
     return x + y * 10;
@@ -34,6 +35,9 @@ class Game {
   showCoin() {
     this.board[this.index(this.coin.x, this.coin.y)].classList.add("coin");
   }
+  hideVisibleCoin() {
+    document.querySelector(".coin").classList.remove("coin");
+  }
   moveFurry(self, interval) {
     if (self.furry.direction === "right") {
       self.furry.x = self.furry.x + 1;
@@ -45,11 +49,14 @@ class Game {
       self.furry.y = self.furry.y + 1;
     }
     self.checkCoinCollision();
-    self.gameOver(interval);
-    self.hideVisibleFurry();
-    self.showFurry();
+    if (self.gameOver(interval) == false) {
+      self.hideVisibleFurry();
+      self.showFurry();
+    } else {
+      this.furry = new Furry();
+      return;
+    }
   }
-
   turnFurry(event) {
     switch (event.which) {
       case 37:
@@ -81,8 +88,13 @@ class Game {
       document.getElementById("over").classList.remove("hide");
       document.getElementById("final-score").innerText = this.score;
       this.hideVisibleFurry();
+      if (this.bestScore < this.score) {
+        this.bestScore = this.score;
+      }
+      document.getElementById("best-score").innerText = this.bestScore;
+      return true;
     }
-    return;
+    return false;
   }
   startGame() {
     this.showFurry();
@@ -101,6 +113,12 @@ document.addEventListener("keydown", function (event) {
   game.turnFurry(event);
 });
 
-// document.querySelector("btn-info").addEventListener("click", function (event) {
-//   event.preventDefault
-// });
+document.querySelector(".btn-info").addEventListener("click", function () {
+  document.getElementById("over").classList.add("hide");
+  game.gameOver() == false;
+  game.hideVisibleCoin();
+  game.coin = new Coin();
+  game.score = 0;
+  document.getElementById("score").innerText = game.score;
+  game.startGame();
+});
