@@ -1,5 +1,5 @@
 main {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .game-board {
@@ -16,18 +16,19 @@ main {
     border-left: 1px solid #bcbcbc;
   }
 
-  .furry, .coin {
+  .furry,
+  .coin {
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
   }
 
   .furry {
-    background-image: url('../images/monster.svg');
+    background-image: url("../images/monster.svg");
   }
 
   .coin {
-    background-image: url('../images/bitcoin.svg');
+    background-image: url("../images/bitcoin.svg");
   }
 }
 
@@ -39,7 +40,7 @@ main {
   top: 0;
   z-index: 1;
   padding: 10px;
-  background-color: rgba(243, 190, 77, .75);
+  background-color: rgba(243, 190, 77, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
