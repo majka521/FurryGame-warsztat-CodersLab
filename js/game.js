@@ -89,6 +89,24 @@ class Game {
     const interval = setInterval(function () {
       self.moveFurry(self, interval);
     }, 250);
+    this.initEvent();
+  }
+
+  initEvent() {
+    let self = this;
+    document.addEventListener("keydown", function (event) {
+      self.turnFurry(event);
+    });
+
+    document.querySelector(".btn-info").addEventListener("click", function () {
+      document.getElementById("over").classList.add("hide");
+      self.gameOver() == false;
+      self.hideVisibleCoin();
+      self.coin = new Coin();
+      self.score = 0;
+      document.getElementById("score").innerText = self.score;
+      self.startGame();
+    });
   }
 }
 
