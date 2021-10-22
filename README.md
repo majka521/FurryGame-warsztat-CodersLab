@@ -16,5 +16,6 @@ Gdy gracz uderzy w ścianę, gra się kończy. Pojawia się wtedy napis "GAME OV
 - SASS
 - Vanilla JavaScript
 - WebPack
+- Local Storage
 
 > Całość HTML i SASS została wykonana przez CodersLab, po mojej stronie było jedynie stworzenie funkcjonalności w JavaScript
