@@ -89,7 +89,6 @@ class Game {
     const interval = setInterval(function () {
       self.moveFurry(self, interval);
     }, 250);
-    this.initEvent();
   }
 
   initEvent() {
@@ -100,7 +99,6 @@ class Game {
 
     document.querySelector(".btn-info").addEventListener("click", function () {
       document.getElementById("over").classList.add("hide");
-      self.gameOver() == false;
       self.hideVisibleCoin();
       self.coin = new Coin();
       self.score = 0;
