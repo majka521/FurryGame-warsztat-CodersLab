@@ -78,9 +78,9 @@ class Game {
         this.bestScore = this.score;
       }
       if (localStorage.getItem("bestScore") == null) {
-        window.localStorage.setItem("bestScore", this.bestScore);
+        localStorage.setItem("bestScore", this.bestScore);
       } else if (localStorage.getItem("bestScore") < this.bestScore) {
-        window.localStorage.setItem("bestScore", this.bestScore);
+        localStorage.setItem("bestScore", this.bestScore);
       }
       document.getElementById("best-score").innerText = localStorage.getItem("bestScore");
       return true;
