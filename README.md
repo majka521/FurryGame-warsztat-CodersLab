@@ -20,13 +20,10 @@ Projekt został stworzony przy użyciu następujących technologi i narzędzi:
 - WebPack
 - Local Storage
 
-<a href="https://icons8.com/icon/QBqFNfPPB2Kx/sass">Sass icon by Icons8</a>
-
-![Html 5 icon by Icons8](https://icons8.com/icon/20909/html-5")
-![Sass icon by Icons8](https://icons8.com/icon/QBqFNfPPB2Kx/sass)
-![JavaScript - Icons8](https://img.icons8.com/color/48/000000/javascript--v1.png)
-![ReactJS - Icons8](https://img.icons8.com/color/48/000000/react-native.png)
-![Firebase - Icons8](https://img.icons8.com/color/48/000000/firebase.png)
+![Html 5 icon by Icons8](https://img.icons8.com/color/50/000000/html-5.png)
+![Sass icon by Icons8](https://img.icons8.com/color/50/000000/sass.png)
+![JavaScript icon by Icons8](https://img.icons8.com/color/50/000000/javascript--v2.png)
+![Webpack icon by Icons8](https://img.icons8.com/color/48/000000/webpack.png)
 
 > Całość HTML i SASS została wykonana przez CodersLab, po mojej stronie było jedynie stworzenie funkcjonalności w JavaScript
 
