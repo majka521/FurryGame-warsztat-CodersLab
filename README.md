@@ -27,19 +27,10 @@ Projekt został stworzony przy użyciu następujących technologi i narzędzi:
 
 > Całość HTML i SASS została wykonana przez CodersLab, po mojej stronie było jedynie stworzenie funkcjonalności w JavaScript
 
-### Screenshots
+### Screenshot
 
-![main screen][c:\users\521ma\desktop\coderslab\12. furry_game\furrygame-warsztat-coderslab\screens\furry_1.png]
-![end screen][c:\users\521ma\desktop\coderslab\12. furry_game\furrygame-warsztat-coderslab\screens\furry_2.png]
+![furry](https://media.giphy.com/media/3dr3Q8qJfF8qdFWi19/giphy.gif)
+
+---
 
 icons form [icons8](https://icons8.com/)
-
-Rules
-
-- move Furry with arrow keys
-  Gather carrots to acquire points
-  Stepping on a fox removes points
-
-Control Furry with arrows keys
-Collect as many coins as you can
-Don't hit the wall
