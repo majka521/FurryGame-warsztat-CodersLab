@@ -1,6 +1,6 @@
 # Furry Game - workshop CodersLab
 
-### Opis
+## Description
 
 Furry Game is a worhshop created for CodersLab JavaScript Developer bootcamp.
 
@@ -8,7 +8,7 @@ Furry Game is a worhshop created for CodersLab JavaScript Developer bootcamp.
 
 You can play **[here](https://majka521.github.io/FurryGame-warsztat-CodersLab/)**.
 
-### Technologies and tools
+## Technologies and tools
 
 This project was created using the following technologies:
 
@@ -25,7 +25,7 @@ This project was created using the following technologies:
 
 > All HTML and SASS was created by CodersLab. I made only a functionalities in JavaScript
 
-### Screenshot
+## Screenshot
 
 ![furry](https://media.giphy.com/media/3dr3Q8qJfF8qdFWi19/giphy.gif)
 
