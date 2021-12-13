@@ -29,8 +29,8 @@ Projekt został stworzony przy użyciu następujących technologi i narzędzi:
 
 ### Screenshots
 
-![main screen][screens/furry 1.png]
-![end screen][screens/furry 2.png]
+![main screen][c:\users\521ma\desktop\coderslab\12. furry_game\furrygame-warsztat-coderslab\screens\furry_1.png]
+![end screen][c:\users\521ma\desktop\coderslab\12. furry_game\furrygame-warsztat-coderslab\screens\furry_2.png]
 
 icons form [icons8](https://icons8.com/)
 
