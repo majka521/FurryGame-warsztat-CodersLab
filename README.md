@@ -21,7 +21,7 @@ This project was created using the following technologies:
 ![Html 5 icon by Icons8](https://img.icons8.com/color/50/000000/html-5.png)
 ![Sass icon by Icons8](https://img.icons8.com/color/50/000000/sass.png)
 ![JavaScript icon by Icons8](https://img.icons8.com/color/50/000000/javascript--v2.png)
-![Webpack icon by Icons8](https://img.icons8.com/color/48/000000/webpack.png)
+![Webpack icon by Icons8](https://img.icons8.com/color/50/000000/webpack.png)
 
 > All HTML and SASS was created by CodersLab. I made only a functionalities in JavaScript
 
