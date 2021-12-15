@@ -2,9 +2,9 @@
 
 ## ![Description icon by Icons8](https://img.icons8.com/dusk/24/000000/document--v1.png) Description
 
-Furry Game is a worhshop created for CodersLab JavaScript Developer bootcamp.
+Furry Game is a workshop created for CodersLab JavaScript Developer bootcamp.
 
-**Furry** is a game character that moves around a 10x10 field board. On a random field on a board, a coin shows. Player, controlling Furry with the arrow keys, must get a coin. When he did it, a coin disappears and shows in other random field. Then player scores 1 point. When the player hits the wall, the game ends. Then we see "GAME OVER" and scored points. Additionally we see information about the best game score during the series of games. The player can start a new game after hitting the wall each time.
+**Furry** is a game character that moves around a 10x10 field board. The coin pops up randomly in the field. Player, controlling Furry with the arrow keys, must get a coin. When he did it, a coin disappears and shows in other random field. Then player scores 1 point. When the player hits the wall, the game ends. Then we see "GAME OVER" and scored points. Additionally we see information about the best game score during the series of games. The player can start a new game after hitting the wall each time.
 
 You can play **[here](https://majka521.github.io/FurryGame-workshop-CodersLab/)**.
 
