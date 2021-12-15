@@ -8,7 +8,7 @@ Furry Game is a workshop created for CodersLab JavaScript Developer bootcamp.
 
 You can play **[here](https://majka521.github.io/FurryGame-workshop-CodersLab/)**.
 
-## ![Tools icon by Icons8](https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/24/000000/external-tools-plumbing-icongeek26-linear-colour-icongeek26.png) Technologies and tools
+## ![Tools icon by Icons8](https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/24/000000/external-tools-plumbing-icongeek26-linear-colour-icongeek26.png) Technologies
 
 This project was created using the following technologies:
 
