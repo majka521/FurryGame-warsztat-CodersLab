@@ -77,12 +77,12 @@ class Game {
       if (this.bestScore < this.score) {
         this.bestScore = this.score;
       }
-      if (localStorage.getItem("bestScore") == null) {
-        localStorage.setItem("bestScore", this.bestScore);
-      } else if (localStorage.getItem("bestScore") < this.bestScore) {
-        localStorage.setItem("bestScore", this.bestScore);
+      if (sessionStorage.getItem("bestScore") == null) {
+        sessionStorage.setItem("bestScore", this.bestScore);
+      } else if (sessionStorage.getItem("bestScore") < this.bestScore) {
+        sessionStorage.setItem("bestScore", this.bestScore);
       }
-      document.getElementById("best-score").innerText = localStorage.getItem("bestScore");
+      document.getElementById("best-score").innerText = sessionStorage.getItem("bestScore");
       return true;
     }
     return false;
